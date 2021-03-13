@@ -79,21 +79,15 @@
     </LinearLayout>
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="ForgotPassword"
-            android:text="If you forgot your password"
-            android:textColor="@android:color/holo_red_light"
-            android:textSize="20sp"
-            android:layout_gravity="center" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:text="Press here"
-        android:onClick="goToForgotPasswordActivity"/>
+        android:text="Forgot your password?"
+        android:onClick="goToForgotPasswordActivity"
+        android:textColor="@android:color/holo_green_dark"/>
 
 
 

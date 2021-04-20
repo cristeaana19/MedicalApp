@@ -1,21 +1,18 @@
-package activity;
+package com.ana.projectatestat.pacient;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.ana.projectatestat.R;
-import com.ana.projectatestat.SignInMedicalFileActivity;
 
-public class IntendSignIn extends AppCompatActivity {
+public class SignInActivity extends AppCompatActivity {
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signin);
+        setContentView(R.layout.activity_signinpacient);
     }
 
     public void goToSignInMedicalFile(View view) {

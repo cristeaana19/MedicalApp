@@ -43,19 +43,13 @@
             android:inputType="textPassword" />
     </LinearLayout>
 
-    <CheckBox
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="20dp"
-    android:layout_marginBottom="20dp"
-    android:text="Accept Terms and Conditions"
-    android:textSize="18sp" />
 
     <Button
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Log in" />
+        android:text="Log in"
+        android:onClick="goToFeedDoctorActivity" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -75,17 +69,18 @@
             android:layout_gravity="center"
             android:text="Sign in"
             android:textSize="15sp"
-            android:onClick="goToSignInActivity"/>
+            android:onClick="goToSignInDoctorActivity"/>
     </LinearLayout>
 
 
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:text="Forgot your password?"
+        android:textSize="20dp"
         android:onClick="goToForgotPasswordActivity"
         android:textColor="@android:color/holo_green_dark"/>
 

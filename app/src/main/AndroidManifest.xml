@@ -9,16 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectAtestat">
-        <activity android:name=".MainActivity" />
-        <activity android:name="activity.IntendLogIn">
+        <activity android:name=".StartActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignInActivity"></activity>
+        <activity android:name=".pacient.SignInActivity"></activity>
         <activity android:name=".ForgotPasswordActivity"></activity>
+        <activity android:name=".pacient.FeedActivity"></activity>
+        <activity android:name=".pacient.LogInPacientActivity"></activity>
+        <activity android:name=".pacient.SignInMedicalFileActivity"></activity>
+        <activity android:name=".doctor.LogInDoctorActivity"></activity>
+        <activity android:name=".doctor.SignInDoctorActivity"></activity>
+        <activity android:name=".doctor.DoctorFeedActivity"></activity>
     </application>
 
 </manifest>

@@ -1,6 +1,8 @@
 package com.ana.projectatestat.pacient;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -38,5 +40,10 @@ public class FeedActivity extends AppCompatActivity {
         appointmentList.add(new Appointment("Dermatology",new Date(2021, Calendar.SEPTEMBER, 12), "Linda Marcury"));
         appointmentList.add(new Appointment("Dermatology",new Date(2021, Calendar.OCTOBER, 12), "Linda Marcury"));
         return appointmentList;
+    }
+
+    public void goToAppointmentChanger(View view) {
+        Intent intent=new Intent( this, AppointmentChangerActivity.class);
+        startActivity(intent);
     }
 }

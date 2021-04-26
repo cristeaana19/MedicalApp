@@ -86,6 +86,10 @@
                 android:layout_height="wrap_content"
                 android:text="Birth date"
                 android:textSize="30sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"/>
 
 
         </LinearLayout>

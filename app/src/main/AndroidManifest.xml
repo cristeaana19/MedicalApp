@@ -24,6 +24,7 @@
         <activity android:name=".doctor.LogInDoctorActivity"></activity>
         <activity android:name=".doctor.SignInDoctorActivity"></activity>
         <activity android:name=".doctor.DoctorFeedActivity"></activity>
+        <activity android:name=".pacient.AppointmentChangerActivity"></activity>
     </application>
 
 </manifest>

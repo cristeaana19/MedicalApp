@@ -22,8 +22,6 @@ public class ForgotPasswordActivity extends AppCompatActivity {
     {
         Toast.makeText(this, "Please wait 30 seconds", Toast.LENGTH_LONG).show();
         Log.wtf("Email", "Please wait 30 seconds");
-
-
     }
 
 

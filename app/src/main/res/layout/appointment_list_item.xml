@@ -8,20 +8,20 @@
         android:layout_height="wrap_content"
         android:id="@+id/name_textView"
         android:text="@string/appointment_name_placeholder"
-        android:padding="10dp"/>
+        android:padding="5dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/date_textView"
         android:text="@string/appointment_date_placeholder"
-        android:padding="10dp"/>
+        android:padding="5dp"/>
     <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:id="@+id/doctor_textView"
     android:text="@string/appointment_doctor_placeholder"
-    android:padding="10dp"/>
+    android:padding="5dp"/>
 
 
 
